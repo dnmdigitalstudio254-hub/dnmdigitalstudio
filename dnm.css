@@ -1,0 +1,26 @@
+/* Global Styles */
+body{line-height:1.6;}
+
+/* SECTIONS */
+header,section{padding: 50px 15px; max-width: 1000px; margin:auto}
+
+/*Headings*/
+
+.Doreen{font-style:italic;}
+.dnm{color:#bfa157;}
+img{height:auto; width:300px;}
+h1{font-size:3rem; margin-bottom: 10px; color: #111;}
+h2{font-size:2rem; margin-bottom:20px; color:#111;}
+h3{font-size:1.5rem; margin-bottom: 20px; color:#111;}
+p{margin-bottom: 20px; color:333;}
+
+/*Buttons*/
+a.button{display:inline-block; padding:12px 24px; margin-right: 10px; background-color: #bfa166; color:#fff; text-decoration: none; border-radius: 5px; font-weight: bold;}
+#projects a {color:#bfa166; text-decoration: none; font-weight: bold;}
+#projects a:hover {color:#a68f50; text-decoration-color: underline;}
+/*Lists*/
+ul{list-style: disc; padding:0;}
+li{margin-bottom:15px;}
+
+/*Responsive*/
+@media(max-width:768px){header,section{padding:50px 15px;} h1{font-size:2.2rem;} h2{font-size:1.5;} h3{font-size:1.2;} a.button{display: block; margin-bottom: 10px}}
