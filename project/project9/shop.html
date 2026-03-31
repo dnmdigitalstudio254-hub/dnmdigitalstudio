@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body><nav></nav>
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    <section class="hero">
+      <h1>Our Products</h1>
+    </section>
+    <section class="products">
+      <div class="card">
+        <img src="images/lotion.jpg">
+        <h3>Body Lotion</h3>
+        <p>Ksh 1200</p>
+        <a href="https://wa.me/254721704848?text=Hi, I Want Body Lotion" class="btn">Order</a>
+      </div>
+      <div class="card">
+        <img src="images/cleanser.jpg">
+        <h3>Face Cleanser</h3>
+        <p>1000</p>
+        <a href="https://wa.me/25421704848?text=Hi, I Want Face Cleanser" class="btn">Order</a>
+      </div>
+    </section>
+    <a href="https://wa.me/254721704848" class="whatsapp">&#128172</a>
+    <footer><p>&copy; 2026 Nairobi Glow</p></footer>
+    <script>
+      function toggleMenu(){document.getElementById("navLinks").classList.toggle("active");
+      document.getElementById("overlay").classList.toggle("active");}
+    </script>
+  </body>
+</html>
